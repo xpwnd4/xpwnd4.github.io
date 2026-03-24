@@ -11,7 +11,5 @@ permalink: /projects/
 
 {{ project.content }}
 
-[github]({{ project.github }})
-
 ---
 {% endfor %}
