@@ -4,7 +4,6 @@ title: Home
 ---
 
 <div class="home-center">
-  <h1>xpwnd4</h1>
   <p class="home-tagline">research. refine. repeat.</p>
 
   <p class="home-about">
