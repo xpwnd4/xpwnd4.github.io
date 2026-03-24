@@ -34,7 +34,7 @@ title: Home
 <section class="panel">
   <h2>Featured Projects</h2>
   <ul class="card-list">
-  {% for item in site.projects limit:3 %}
+  {% for item in site.projects limit:2 %}
     <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
   {% endfor %}
   </ul>
