@@ -12,30 +12,3 @@ title: Home
     <a href="/blog/">[ Read Blog ]</a>
   </p>
 </section>
-
-<section class="panel">
-  <h2>Recent Blog Posts</h2>
-  <ul class="card-list">
-  {% for post in site.posts limit:3 %}
-    <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a> <span class="meta">— {{ post.date | date: "%b %d, %Y" }}</span></li>
-  {% endfor %}
-  </ul>
-</section>
-
-<section class="panel">
-  <h2>Featured Writeups</h2>
-  <ul class="card-list">
-  {% for item in site.writeups limit:3 %}
-    <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
-  {% endfor %}
-  </ul>
-</section>
-
-<section class="panel">
-  <h2>Featured Projects</h2>
-  <ul class="card-list">
-  {% for item in site.projects limit:2 %}
-    <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
-  {% endfor %}
-  </ul>
-</section>
