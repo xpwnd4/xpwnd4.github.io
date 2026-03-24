@@ -12,5 +12,9 @@ title: Home
 
   <div class="home-nav">
     <a href="/projects/">projects</a>
+  <div class="home-nav">
+    <a href="/writeups/">projects</a>
+  <div class="home-nav">
+    <a href="/blogs/">projects</a>
   </div>
 </div>
