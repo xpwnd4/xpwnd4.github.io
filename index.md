@@ -1,8 +1,3 @@
----
-layout: default
-title: Home
----
-
 <div class="home-center">
   <p class="home-tagline">research. refine. repeat.</p>
 
