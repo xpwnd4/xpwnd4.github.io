@@ -5,11 +5,10 @@ title: Home
 
 <div class="home-center">
   <h1 class="home-title">./xpwnd4</h1>
-  <p class="home-tagline">malware analysis // dfir // offensive research</p>
+  <p class="home-tagline">notes from the lab</p>
 
   <p class="home-about">
-    Anonymous cybersecurity practitioner focused on malware analysis, DFIR, red teaming, and technical research.  
-    This site is where I publish projects, writeups, and notes from the lab.
+    Anonymous cybersecurity practitioner documenting projects, writeups, and research notes across malware analysis, DFIR, and offensive security.
   </p>
 
   <div class="home-nav">
