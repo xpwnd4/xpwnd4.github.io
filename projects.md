@@ -11,4 +11,5 @@ permalink: /projects/
 
 {{ project.content }}
 
+---
 {% endfor %}
