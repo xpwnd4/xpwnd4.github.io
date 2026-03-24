@@ -23,6 +23,17 @@
       text-align: center;
     }
 
+    .profile-wrap {
+      margin-bottom: 1rem;
+    }
+
+    .profile-img {
+      width: 140px;
+      height: auto;
+      display: block;
+      margin: 0 auto 1rem auto;
+    }
+
     .tagline {
       font-size: 1rem;
       color: #9ad79b;
@@ -93,6 +104,10 @@
     }
 
     @media (max-width: 600px) {
+      .profile-img {
+        width: 110px;
+      }
+
       .about {
         font-size: 0.95rem;
       }
@@ -109,6 +124,10 @@
 </head>
 <body>
   <div class="container">
+    <div class="profile-wrap">
+      <img src="/assets/images/profile.jpg" alt="profile image" class="profile-img">
+    </div>
+
     <p class="tagline">research. refine. repeat.</p>
 
     <p class="about">
