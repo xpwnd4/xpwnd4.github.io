@@ -1,0 +1,15 @@
+theme: jekyll-theme-hacker
+
+title:
+description:
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
+  writeups:
+    output: true
+    permalink: /writeups/:name/
+  resources:
+    output: true
+    permalink: /resources/:name/
